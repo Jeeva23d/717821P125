@@ -1,0 +1,69 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Outer-Container{
+  width: 100%;
+  height: 90vh;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: rgb(32, 32, 32);
+  
+}
+.App{
+  padding: 40px;
+}
+.App-Header{
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+.App-Header h1{
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.App-Content button{
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:aqua ;
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+  
+}
+.display{
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 200px;
+  padding-left: 3px;
+  
+}
+
+
+
+.App-Content{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.App-Content button:hover{
+  opacity: 0.9;
+  
+}
